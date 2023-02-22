@@ -1,0 +1,115 @@
+#mainNav {
+    font-weight: 600;
+}
+
+#mainNav .navbar-brand {
+    color: #fff;
+    font-size: 1.75em;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #9fef00;
+    transition: 0.2s;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    transition-duration: 0.3s;
+    color: #07b9bf;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    transition-duration: 0.3s;
+    color: #9fef00;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+
+    #mainNav .navbar-nav {
+        margin-top: 0;
+    }
+
+    #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+        transition-duration: 0.3s;
+        color: #9fef00;
+    }
+
+    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
+        transition-duration: 0.3s;
+        color: #9fef00;
+    }
+
+    #mainNav.navbar-shrink {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+#heroSection,
+#experienceSection,
+#projects {
+    padding: 6em 0 6.5em;
+}
+
+.social-icons .social-icon {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.7rem;
+    width: 3.7rem;
+    background-color: #198686;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.7rem;
+    margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+
+.social-icons .social-icon:hover {
+    background-color: #8cb836;
+    transition: 0.25s;
+}
+
+.dev-icons {
+    font-size: 3.7rem;
+}
+
+.footer {
+    background-color: #212526;
+}
+
+.card-img-top {
+    transition-duration: 0.3s;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom .card-img-top {
+    object-fit: cover;
+}
+
+.zoom .card-img-top:hover {
+    transform: scale(1.04);
+    transition-duration: 0.3s;
+}
